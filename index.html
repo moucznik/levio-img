@@ -128,10 +128,12 @@
 
       .man {
         transform: translate3d(0px, 10px, 0px);
+        will-change: transform;
         animation: bounceAround 3s ease-in-out infinite;
       }
 
       .shadow {
+        will-change: transform;
         animation: shadowAnimation 3s ease-in-out infinite;
       }
 
